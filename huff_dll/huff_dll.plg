@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: huff_dll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD5C0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HUFF_DLL_EXPORTS" /Fp"Debug/huff_dll.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\huff_dll\huff_dll.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD5C0.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD5C1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/huff_dll.pdb" /debug /machine:I386 /out:"Debug/huff_dll.dll" /implib:"Debug/huff_dll.lib" /pdbtype:sept 
+.\Debug\huff_dll.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD5C1.tmp"
+<h3>Output Window</h3>
+Compiling...
+huff_dll.cpp
+d:\huff_dll\huff_dll.cpp(11) : warning C4273: 'read_file_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(26) : warning C4273: 'write_file_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(40) : warning C4273: 'InitHuffman_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(53) : warning C4273: 'count_bytes_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(73) : warning C4273: 'scale_counts_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(96) : warning C4273: 'output_counts_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(100) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+d:\huff_dll\huff_dll.cpp(148) : warning C4273: 'build_tree_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(173) : warning C4273: 'convert_tree_to_code_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(204) : warning C4273: 'printf_model_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(239) : warning C4273: 'compress_data_yrq' : inconsistent dll linkage.  dllexport assumed.
+d:\huff_dll\huff_dll.cpp(260) : warning C4273: 'print_ratios_yrq' : inconsistent dll linkage.  dllexport assumed.
+Linking...
+
+
+
+<h3>Results</h3>
+huff_dll.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
